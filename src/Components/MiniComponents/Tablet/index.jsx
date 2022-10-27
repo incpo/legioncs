@@ -8,7 +8,7 @@ import PreLoader from "../PreLoader";
 import env from '../../../assets/env.json'
 
 const Tablet = () => {
-
+    //lag
     const [data,setData] = useState();
     const dispatch = useDispatch();
     let statParam = useSelector(statusParams);
