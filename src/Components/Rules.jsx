@@ -1,8 +1,19 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import InfoContainer from './MiniComponents/InfoContainer'
 import PageContainer from './MiniComponents/PageContainer'
+import env from '../assets/env.json'
+import {loadStatusData} from "../app/paymentSlice";
 
 export default function Rules() {
+    const [rulesContent, setRulesContent] = useState()
+    useEffect(()=> {
+        fetch(`${env.urlBackend}/rules`)
+            .then(response => response.json())
+            .then(response => {
+                setRulesContent(response.rules)
+            })
+    }, [])
+
   return (
     <PageContainer info={
       <InfoContainer header='ПРАВИЛА' btnText='Скачать' value={
@@ -16,4 +27,3 @@ export default function Rules() {
   )
 }
 
-const rulesContent = `test`

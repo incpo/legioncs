@@ -5,6 +5,7 @@ import { statusParams } from '../../../app/paymentSlice'
 import { loadStatusData } from "../../../app/paymentSlice";
 import { useState } from "react";
 import PreLoader from "../PreLoader";
+import env from '../../../assets/env.json'
 
 const Tablet = () => {
 
@@ -13,7 +14,8 @@ const Tablet = () => {
     let statParam = useSelector(statusParams);
 
     useEffect(() => {
-        fetch('http://localhost:3000/status')
+        console.log(env)
+        fetch(`${env.urlBackend}/status`)
         .then(response => response.json())
         .then(response => {
             dispatch(loadStatusData(response))
