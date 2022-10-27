@@ -1,5 +1,5 @@
 import Button from './MiniComponents/Button';
-// import Typed from 'react-typed'
+import Typed from 'react-typed'
 import PageContainer from './MiniComponents/PageContainer';
 export default function Main() {
 
