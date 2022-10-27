@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import InfoContainer from './MiniComponents/InfoContainer'
 import PageContainer from './MiniComponents/PageContainer'
 import env from '../assets/env.json'
-import {loadStatusData} from "../app/paymentSlice";
 
 export default function Rules() {
     const [rulesContent, setRulesContent] = useState()
