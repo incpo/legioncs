@@ -1,0 +1,7 @@
+{
+  "status": {
+    "vip": {"status": {"enName": "VIP","ruName": "Вип", "cost": 200, "cost2": 120, "key": "01", "benefits": ["Банни хоп","900$ к балансу","102HP/ARMOR","ТЕГ В ТАБЕ" ]}},
+    "premium": {"status": {"enName": "PREMIUM","ruName": "Премиум",  "key": "02", "description": "Включая всё в VIP статусе", "cost": 520, "cost2": 210, "benefits": ["Эффект при спавне","1600$ к балансу","105HP/ARMOR","Муз. наборы", "Скины на агентов" ]}},
+    "admin": {"status": {"enName": "ADMIN","ruName": "Админ", "key": "03", "description": "Включая всё в VIP статусе", "cost": 790, "cost2": 400, "benefits": ["Доступ к бану/кику","Доступ к муту","Кастомизация сервера"]}}
+  }
+}

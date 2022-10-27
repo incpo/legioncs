@@ -1,0 +1,2 @@
+.toastWrap{left:0;position:fixed;right:0;text-align:center;width:100%;z-index:999}@media only screen and (min-width:767px){.toastWrap{bottom:0}}@media only screen and (max-width:767px){.toastWrap{top:8%}}.toast{-webkit-animation:tost-in .7s;animation:tost-in .7s;background-color:rgba(82,23,209,.2);margin:.5rem;padding:.5rem 1rem}@-webkit-keyframes tost-in{0%{opacity:0}to{opacity:1}}@keyframes tost-in{0%{opacity:0}to{opacity:1}}
+/*# sourceMappingURL=467.39f1e3f0.chunk.css.map*/

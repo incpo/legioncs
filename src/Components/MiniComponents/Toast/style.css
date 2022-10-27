@@ -1,0 +1,38 @@
+.toastWrap {
+    position: fixed;
+    left:0;
+    right:0;
+    width: 100%;
+    text-align:center;
+    z-index: 999;
+}
+
+@media only screen and (min-width: 767px) {
+        .toastWrap {
+            bottom: 0;
+        }
+}
+/* Костыльно это все, убери */
+@media only screen and (max-width: 767px) {
+    .toastWrap {
+        top: 8%; 
+    }
+}
+
+
+.toast {
+    background-color: rgba(82, 23, 209, 0.2);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    animation: tost-in 0.7s;
+}
+
+@keyframes tost-in {
+from {
+    opacity: 0;
+}
+    to {
+    opacity: 1;
+    }
+}
+

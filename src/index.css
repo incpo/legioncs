@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .background {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+  }
+  .backgroundMain {
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: 50% 20%;
+  }
+  .btn_blue {
+    background: rgb(82,23,209);
+    background: linear-gradient(125deg, rgba(82,23,209,1) 1%, rgba(23,64,209,1) 100%);
+    border-radius:4px;
+    color: white;
+  }.btn:hover {
+    background: rgb(23,64,209);
+    background: linear-gradient(125deg, rgba(23,64,209,1) 1%, rgba(82,23,209,1) 100%);
+  }
+  .btn_black {
+    background: #737373;
+    border-radius:8px;
+    color: white;
+  }
+  .btn_black:hover {
+    background:#5217D1;
+  }
+}
+
+.main {
+  background-image:url('assets/imgs/main.jpg');
+}
+.rules {
+  background-image:url('assets/imgs/rules.jpg');
+}
+.donate {
+  background-image:url('assets/imgs/donate.jpg') ;
+}
+.active {
+  background:#5217D1;
+}
+.disabled {
+  background: #737373;
+  border-radius:8px;
+  color: white;
+}
+
+.hide {
+  display: none !important;
+}
+
+.listDonate::before {
+  content: url('assets/imgs/checkIcon.svg');
+  position: absolute;
+  left: 1%;
+}
+
+.modal-wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 120;
+  backdrop-filter: blur(14px);
+}
+.modal {
+  width: 90%;
+  max-width: 600px;
+  height: 60vh;
+  border-top: 1px solid rgba(82,23,209, .7);
+  border-bottom: 1px solid rgba(82,23,209, .7);
+  border-radius: 27px;
+  padding: 10px;
+  background: rgba(41,41,41, .85);
+}
+body {
+  font-family: 'Kufam', sans-serif;
+  height: 89vh;
+  background-color: #0B0811;
+  background-image: url('assets/imgs/backall.png');
+  background-size:contain;
+  background-position:center;
+  
+}
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+  }
+}
+
+
