@@ -13,7 +13,7 @@ The site was conceived as divided into two sides. In one (left) functional part,
 
 ### Warning!
 It is forbidden to use the design of the project for any purpose ( logo ) <br/>
-Licence: [Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Project Licence: [Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ## Stack
 + FrontEND: ReactJS, ReduxToolkit, TailwindCSS
