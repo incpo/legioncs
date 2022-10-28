@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<p align="center">
+<img width="150" src="https://i.imgur.com/jTNd3xl.png">
+</p>
+---
+#[LegionCS](https://legioncs.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LegionCS this is a real commercial project <br/>that was developed for the server in the game Counter-Strike Global Offensive. <br/>
 
-## Available Scripts
+Project has a miscalculations. Of course, it was possible to put it in order, but the project has frozen and does not need to be continued. <br/>
+The site was conceived as divided into two sides. In one (left) functional part, and in the other a suitable photo. The site is superbly responsive to ALL devices! It's a full stuck project.
 
-In the project directory, you can run:
+##Stack
++ FrontEND: ReactJS, ReduxToolkit, TailwindCSS
++ BackEND: Simplify Json server located on HerokuAPP
 
-### `npm start`
+##Design
+The website design was developed by using Figma.
+![image](https://user-images.githubusercontent.com/50119367/198560748-8a539026-24a0-4879-b217-77dbfdb4c81a.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Hosting
+Server host - HEROKU <br/>
+Client host - netlify.app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Features
+- [x] Using Custom hooks.
+- [x] Full-Responsive application (Great work on side-bar effect).
+- [x] Using Rest-api.
+- [x] Custom Pre-loader (LazyLoad).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Disadvantage
+- [x] Bad optimisation
+- [x] Bad file architecture
+- [x] Light backend server.
