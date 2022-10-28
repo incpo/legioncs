@@ -35,5 +35,5 @@ Client host - [Netlify](https://netlify.app/)
 - [ ] Payment system
 
 # Disadvantage
-- [ ] Bad file architecture
-- [ ] Light backend server.
+- [x] Bad file architecture
+- [x] Light backend server.
