@@ -34,6 +34,5 @@ Client host - [Netlify](https://netlify.app/)
 - [x] Custom Pre-loader (LazyLoad).
 
 # Disadvantage
-- [ ] Bad optimisation
 - [ ] Bad file architecture
 - [ ] Light backend server.
