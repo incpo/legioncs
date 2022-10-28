@@ -32,6 +32,7 @@ Client host - [Netlify](https://netlify.app/)
 - [x] Full-Responsive application (Great work on side-bar effect).
 - [x] Using Rest-api.
 - [x] Custom Pre-loader (LazyLoad).
+- [ ] Payment system
 
 # Disadvantage
 - [ ] Bad file architecture
