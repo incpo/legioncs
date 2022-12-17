@@ -6,7 +6,7 @@
 
 This is a real commercial project <br/>that was developed for the server in the game Counter-Strike Global Offensive. <br/>
 
-Try it out! - [link](https://legioncs.netlify.app/)
+Try it out! - [link](https://legioncs.netlify.app/)<br/>
 ATTENTION! - HEROKU NOW IS NOW FREE SO MY APP DOESNT WORK CURRECTLY - U CAN WATCH [PREVIEW VIDEO](https://youtu.be/t2nl4v053_Q)
 
 Project has a miscalculations. Of course, it was possible to put it in order, but the project has frozen and does not need to be continued. <br/>
