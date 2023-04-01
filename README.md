@@ -4,7 +4,7 @@
 
 ---
 
-This is a real commercial project <br/>that was developed for the server in the game Counter-Strike Global Offensive. <br/>
+Project that was developed for the server in the game Counter-Strike Global Offensive. <br/>
 
 Try it out! - [link](https://legioncs.netlify.app/)<br/>
 ATTENTION! - If application doesn't work(backend) watch preview [video on youtube!](https://youtu.be/t2nl4v053_Q)
